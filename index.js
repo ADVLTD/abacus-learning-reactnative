@@ -7,7 +7,7 @@
  import App from './App';
  import {name as appName} from './app.json';
  
- //Initializing localStorage in react native window
+ //Initializing localStorage in react native window which is required for near and wallet connections to store keys
  let localStorageData = {};
  window.localStorage = {
    getItem: key => localStorageData[key],
