@@ -176,7 +176,7 @@ const Home = ({navigation, route}) => {
                 />
               </View>
             ) : null}
-            <TouchableOpacity onPress={() => {}}>
+            <TouchableOpacity onPress={() => navigation.navigate('SignIn')}>
               <Text style={styles.signInText}>
                 Already Have an account ?{' '}
                 <Text style={styles.signInCTA}>Sign In</Text>

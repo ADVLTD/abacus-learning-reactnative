@@ -10,6 +10,8 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import FlashMessage from 'react-native-flash-message';
 
 import Home from './src/InstructionalCode/AccountCreation/1-UsingAPI/screens/Home';
+import SignIn from './src/InstructionalCode/UserAuthentication/SignIn';
+import VideoPlayer from './src/InstructionalCode/SendMoney/VideoPlayer';
 
 LogBox.ignoreLogs(['Warning: ...']);
 LogBox.ignoreAllLogs();
@@ -23,6 +25,9 @@ const App = () => {
       <NavigationContainer>
         <Stack.Navigator>
           <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="SignIn" component={SignIn} />
+          <Stack.Screen name="Video Player" component={VideoPlayer} />
+          
         </Stack.Navigator>
       </NavigationContainer>
       <FlashMessage position="top" />
