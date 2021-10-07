@@ -11,7 +11,7 @@ import FlashMessage from 'react-native-flash-message';
 
 import Home from './src/InstructionalCode/AccountCreation/1-UsingAPI/screens/Home';
 import SignIn from './src/InstructionalCode/UserAuthentication/SignIn';
-import VideoPlayer from './src/InstructionalCode/SendMoney/VideoPlayer';
+import VideoPlayer from './src/InstructionalCode/SendMoney/UsingContractCall/VideoPlayer';
 
 LogBox.ignoreLogs(['Warning: ...']);
 LogBox.ignoreAllLogs();

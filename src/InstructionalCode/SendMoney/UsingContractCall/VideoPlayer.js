@@ -85,13 +85,13 @@ export default function VideoPlayer({navigation}) {
             }}>
             <Image
               style={styles.topBarIcons}
-              source={require('../../assets/images/logout.png')}
+              source={require('../../../assets/images/logout.png')}
             />
           </TouchableOpacity>
           <TouchableOpacity onPress={() => navigation.navigate('Settings')}>
             <Image
               style={styles.topBarIcons}
-              source={require('../../assets/images/gear.png')}
+              source={require('../../../assets/images/gear.png')}
             />
           </TouchableOpacity>
         </View>
