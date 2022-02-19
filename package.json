@@ -1,0 +1,54 @@
+{
+  "name": "rn_instructional_code",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "npm run build:contract ",
+    "build:contract": "asb",
+    "deploy": "yarn build && near deploy"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.7",
+    "@react-native-clipboard/clipboard": "^1.8.4",
+    "@react-native-community/art": "^1.2.0",
+    "@react-native-community/clipboard": "^1.5.1",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/native-stack": "^6.1.0",
+    "axios": "^0.21.4",
+    "big.js": "^6.1.1",
+    "buffer": "^6.0.3",
+    "config.js": "^0.1.0",
+    "near-api-js": "^0.42.0",
+    "react": "17.0.2",
+    "react-native": "0.65.1",
+    "react-native-flash-message": "^0.1.23",
+    "react-native-indicator": "^1.2.2",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.6.0",
+    "react-native-video": "^5.1.1",
+    "react-native-webview": "^11.13.0",
+    "regenerator-runtime": "^0.13.9",
+    "whatwg-url": "^9.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.0",
+    "near-sdk-as": "^3.2.3",
+    "nodemon": "~2.0.3",
+    "react-native-codegen": "^0.0.7",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
