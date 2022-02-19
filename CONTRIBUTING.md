@@ -18,7 +18,7 @@ If you see an obvious typo, or an obvious bug that can be fixed with a small cha
 
 ## Working on current tasks
 
-If you have never contributed before, take a look at the work items in the issue tracker labeled with `good first issue` [here](https://github.com/alsaabLTD/abacus-learning-swift/issues). If you see one that looks interesting, and is not claimed, please comment on the issue that you would like to start working on it, and someone from the team will assign it to you.
+If you have never contributed before, take a look at the work items in the issue tracker labeled with `good first issue` [here](https://github.com/alsaabLTD/abacus-learning-reactnative/issues). If you see one that looks interesting, and is not claimed, please comment on the issue that you would like to start working on it, and someone from the team will assign it to you.
 
 Keep in mind the following:
 
